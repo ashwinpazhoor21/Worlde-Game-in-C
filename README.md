@@ -19,6 +19,16 @@ This project involves implementing a playable version of the popular word-guessi
 - **`wordle_lib.h`**: Header file with function declarations.
 - **`Makefile`**: Builds the project.
 
+### Data Structures
+
+The project uses dynamic data structures to manage game state and player interactions:
+
+- **Arrays**: Used to store the list of valid 5-letter words and to manage the player's guesses.
+- **Structs**: Employed to encapsulate the properties of each word, such as the word itself and the associated feedback colors for each letter.
+- **Linked Lists**: Utilized for advanced management of game states and undo functionality (if implemented).
+
+These data structures facilitate efficient searching, matching, and feedback generation, allowing the game to process player guesses and provide appropriate responses.
+
 ### Usage
 
 To compile and run the game:
